@@ -7,18 +7,34 @@ page-home {
    height: 50px;
    width: 50px;
    border-radius: 30px;
-   border: 1px solid;
    padding-top: 5px;
-   padding-left: 10px;
+   padding-left: 12px;
+  }
+
+  .feature-desc {
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
+
+  .toolbar-background {
+    background: #fff;
   }
 
   ion-icon{
     font-size: 35px;
+    color: #000000;
   }
 
   ion-col{
     padding-left: 25px !important;
-    padding-top: 15px !important;
+    padding-top: 5px !important;
   }
 
+  h2{
+    margin-bottom: 2px;
+  }
+
+  p{
+    padding-left: 3px;
+  }
 }
