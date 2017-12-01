@@ -12,7 +12,7 @@
     <ion-grid>
       <ion-row>
         <ion-col>
-          <div ion-button class="home-icon">
+          <div ion-button class="home-icon" [navPush]="groupPage">
             <ion-icon name="ios-chatbubbles-outline" class="group-icon"></ion-icon>
           </div>
           <div>
@@ -24,7 +24,7 @@
             <ion-icon name="ios-people"></ion-icon>
           </div>
           <div>
-            <p class="feature-desc" >Shepherd</p>
+            <p class="feature-desc">Shepherd</p>
           </div>
         </ion-col>
       </ion-row>
@@ -34,7 +34,7 @@
             <ion-icon name="ios-leaf"></ion-icon>
           </div>
           <div>
-            <p class="feature-desc" >Courses</p>
+            <p class="feature-desc">Courses</p>
           </div>
         </ion-col>
         <ion-col>
